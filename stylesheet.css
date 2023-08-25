@@ -101,7 +101,7 @@ aside {
     background-attachment: fixed;
     width: 90vw;
     height: 100vh;
-    text-align: justify;
+    text-align:justify;
     margin: 0px ;
     padding: 10px;
 
@@ -110,7 +110,7 @@ aside {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    flex-wrap: wrap ; 
+    flex-wrap:wrap;
 
 }
 
@@ -170,15 +170,16 @@ nav {
    /* ---- Footer -----*/    
 
 footer{
-    background-color: lightgray;
+    background-color:darkgray;
     margin: 20px;
     padding: 30px;
-    
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
 }
+
+
 
 
 
