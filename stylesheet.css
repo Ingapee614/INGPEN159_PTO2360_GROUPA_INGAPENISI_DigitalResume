@@ -167,39 +167,24 @@ nav {
 
 
  
-   /* ---- Footer -----    
-footer{background-color:lightgrey;     
-             margin: 20px ;
-             padding: 30px;
-            color: black; 
-            display: grid;
-            grid-template-columns:repeat(2,1fr);
-            grid-template-rows: auto;
-            
-            gap:10px 10px;
-            border: 2px solid black;}
-            
-            
-            #footer > div {
-                margin-bottom: 2rem;
-                align-items: center;
-            } */
+   /* ---- Footer -----*/    
 
 footer{
     background-color: lightgray;
     margin: 20px;
     padding: 30px;
-    display: flex;
+    
+    display:flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items:end;}
+    align-items:center;
+}
+
+
+
     
 
-  /*  
-}
-.footer> div{
-    align-content: center;
 
-}*/
 
         
             
